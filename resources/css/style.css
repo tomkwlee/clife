@@ -92,3 +92,57 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+/*/////ends css reset/////*/
+
+.wrapper {
+    width: 100%;
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+header {
+    background: darkolivegreen;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#brand {
+    height: 80px;
+    width: 300px;
+    float: left;
+}
+
+#brand a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+
+header nav {
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+header nav a {
+    color: red;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header nav h2 {
+    height: 0;
+    text-indent: -10000px;
+}
+
+header nav li {
+    float: left;
+    margin-left: 20px;
+}
