@@ -95,6 +95,8 @@ input, select {
 
 /*/////ends css reset/////*/
 
+
+/* header start */
 .wrapper {
     width: 100%;
     max-width: 90%;
@@ -145,4 +147,41 @@ header nav h2 {
 header nav li {
     float: left;
     margin-left: 20px;
+}
+
+/* banner start */
+#lead-banner img {
+    width: 100%;
+}
+
+#lead-banner {
+    max-height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.banner-title {
+    color: white;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.banner-overlay a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.banner-overlay a:hover {
+    color: darkgray;
 }
