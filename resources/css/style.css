@@ -165,7 +165,7 @@ header nav li {
     top: 35%;
     width: 100%;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-family: sans-serif;
 }
 
@@ -179,9 +179,15 @@ header nav li {
 .banner-overlay a {
     text-decoration: none;
     color: white;
+    letter-spacing: 2px;
 
 }
 
 .banner-overlay a:hover {
     color: darkgray;
+}
+
+ul img {
+    max-width: 300px;
+    max-height: 300px;
 }
