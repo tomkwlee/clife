@@ -21,7 +21,9 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    font-family: 'Ubuntu' ,sans-serif;
 }
+
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
@@ -104,7 +106,8 @@ input, select {
 }
 
 header {
-    background: darkolivegreen;
+    background: rgb(31, 30, 30);
+    
 }
 
 header:after {
@@ -120,10 +123,11 @@ header:after {
 }
 
 #brand a {
-    color: yellow;
+    color: white;
     text-decoration: none;
-    font-size: 1.6rem;
-    font-family: sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 
@@ -134,9 +138,8 @@ header nav {
 }
 
 header nav a {
-    color: red;
+    color: white;
     text-decoration: none;
-    font-family: sans-serif;
 }
 
 header nav h2 {
@@ -166,7 +169,6 @@ header nav li {
     width: 100%;
     text-align: center;
     letter-spacing: 4px;
-    font-family: sans-serif;
 }
 
 .banner-title {
@@ -174,6 +176,8 @@ header nav li {
     text-transform: lowercase;
     text-align: center;
     font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 8px;
 }
 
 .banner-overlay a {
@@ -209,9 +213,9 @@ section {
 }
 
 #styles h1 {
-    font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
+    font-size: 2.5rem;
     
 }
 
