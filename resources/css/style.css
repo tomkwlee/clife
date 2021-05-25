@@ -187,20 +187,48 @@ header nav li {
     color: darkgray;
 }
 
-ul img {
-    max-width: 300px;
-    max-height: 300px;
+/* main-content start */
+section {
+    margin: 40px 0 60px;
 }
 
-ul {
-    text-decoration: none;
-    -moz-column-count: 4;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 20px;
-    column-count: 4;
-    column-gap: 20px;
+#styles ul {
+    list-style-type: none;
+    margin-top: 30px;
 }
-.container-fluid {
-    width: 100%;
+
+#styles ul img {
+    border: 35px solid lightgray;
+    max-width: 375px;
+    max-height: 375px;
+}
+
+#styles h2 {
+    height: 0;
+    text-indent: -10000px;
+}
+
+#styles h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+#styles li {
+    float: left;
+    width: 31%;
+}
+
+#styles li:nth-child(2),
+#styles li:nth-child(5) {
+    margin: 0 2%;
+}
+#styles li:nth-child(1),
+#styles li:nth-child(4) {
+    margin-left: 3%;
+}
+
+#styles li a {
+    text-align: center;
 }
