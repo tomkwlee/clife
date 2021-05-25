@@ -116,20 +116,23 @@ header:after {
     clear: both;
 }
 
-#brand {
+
+.wrapper-brand {
     height: 80px;
     width: 300px;
     float: left;
-}
-
-#brand a {
     color: white;
     text-decoration: none;
     font-size: 1.4rem;
     letter-spacing: 2px;
     font-weight: 500;
+    position: fixed;
+    line-height: inherit;
 }
 
+.wrapper a {
+    position: relative;
+}
 
 header nav {
     float: right;
