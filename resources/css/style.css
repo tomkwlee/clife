@@ -199,44 +199,54 @@ section {
     margin: 40px 0 60px;
 }
 
-#styles ul {
+#styles ul,
+#occasion ul{
     list-style-type: none;
     margin-top: 30px;
 }
 
-#styles ul img {
+#styles ul img,
+#occasion ul img {
     border: 35px solid lightgray;
     max-width: 375px;
     max-height: 375px;
 }
 
-#styles h2 {
+#styles h2,
+#occasion h2 {
     height: 0;
     text-indent: -10000px;
 }
 
-#styles h1 {
+#styles h1 ,
+#occasion h1{
     text-transform: uppercase;
     text-align: center;
     font-size: 2.5rem;
     
 }
 
-#styles li {
+#styles li,
+#occasion li {
     float: left;
     width: 31%;
     margin-bottom: 80px;
 }
 
 #styles li:nth-child(2),
-#styles li:nth-child(5) {
+#styles li:nth-child(5),
+#occasion li:nth-child(2),
+#occasion li:nth-child(5) {
     margin: 0 2%;
 }
 #styles li:nth-child(1),
-#styles li:nth-child(4) {
+#styles li:nth-child(4),
+#occasion li:nth-child(1),
+#occasion li:nth-child(4) {
     margin-left: 3%;
 }
 
-#styles li a {
+#styles li a,
+#occasion li a {
     text-align: center;
 }
