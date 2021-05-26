@@ -199,6 +199,13 @@ section {
     margin: 40px 0 60px;
 }
 
+#styles h3,
+#occasion h3 {
+    text-align: center;
+    padding-right: 60px;
+    margin-bottom: 10px;
+}
+
 #styles ul,
 #occasion ul{
     list-style-type: none;
