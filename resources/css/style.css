@@ -225,6 +225,7 @@ section {
 #styles li {
     float: left;
     width: 31%;
+    margin-bottom: 80px;
 }
 
 #styles li:nth-child(2),
