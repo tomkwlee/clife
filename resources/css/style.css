@@ -204,6 +204,9 @@ section {
     text-align: center;
     padding-right: 60px;
     margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    text-transform: lowercase;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #styles ul,
@@ -215,7 +218,7 @@ section {
 #styles ul img,
 #occasion ul img {
     border: 35px solid lightgray;
-    max-width: 375px;
+    max-width: 400px;
     max-height: 375px;
 }
 
@@ -237,7 +240,7 @@ section {
 #occasion li {
     float: left;
     width: 31%;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 #styles li:nth-child(2),
