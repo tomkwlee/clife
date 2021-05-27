@@ -296,3 +296,18 @@ section:after {
     border-top: 1px solid #ccc;
     padding-top: 30px;
 }
+
+#contact-methods {
+    float: left;
+}
+
+#contact h2 {
+    text-transform: lowercase;
+}
+
+#contact-methods li {
+    list-style-type: none;
+    color: #888;
+    line-height: 30px;
+
+}
