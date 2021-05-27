@@ -107,7 +107,6 @@ input, select {
 
 header {
     background: rgb(31, 30, 30);
-    
 }
 
 header:after {
@@ -118,7 +117,7 @@ header:after {
 
 
 .wrapper-brand {
-    height: 80px;
+    height: 60px;
     width: 300px;
     float: left;
     color: white;
@@ -128,6 +127,7 @@ header:after {
     font-weight: 500;
     position: fixed;
     line-height: inherit;
+    margin-top: 25px;
 }
 
 .wrapper a {
@@ -153,6 +153,13 @@ header nav h2 {
 header nav li {
     float: left;
     margin-left: 20px;
+}
+
+header span {
+    color: white;
+    padding-left: 15px;
+    font-size: 0.75rem;
+    text-align: center;;
 }
 
 /* banner start */
@@ -197,6 +204,12 @@ header nav li {
 /* main-content start */
 section {
     margin: 40px 0 60px;
+}
+
+section:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 #styles h3,
@@ -259,4 +272,9 @@ section {
 #styles li a,
 #occasion li a {
     text-align: center;
+}
+
+#occasion {
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
 }
