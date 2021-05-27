@@ -340,6 +340,29 @@ section:after {
     float: left;
     margin-right: 10px;
 }
+/* promo start */
+
+#promo h1 {
+
+}
+
+#name-input {
+    width: 300px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+#email-input {
+    width: 300px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+#promo-submit {
+    background:dimgray;
+    color: white;
+    padding: 10px 40px;
+}
 
 /* footer start */
 
