@@ -112,9 +112,9 @@ input, select {
 
 header {
     background: rgb(31, 30, 30);
-    border: 10px solid green;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 
@@ -178,12 +178,19 @@ header span {
 /* banner start */
 #lead-banner img {
     width: 100%;
+    position: relative;
+    z-index: -1;
 }
 
 #lead-banner {
     max-height: 700px;
     overflow: hidden;
     position: relative;
+}
+
+#lead-banner .banner-title,
+#lead-banner a {
+    z-index: -1;
 }
 
 .banner-overlay {
