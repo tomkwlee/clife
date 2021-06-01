@@ -362,8 +362,8 @@ section:after {
     height: 300px;
     padding: 50px 30px;
     padding-bottom: 70px;
-    top: 100px;
-    background: lightgray;
+    top: 150px;
+    background: #c0d8d4;
 }
 
 #name-input,
