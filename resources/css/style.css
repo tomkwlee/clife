@@ -346,7 +346,7 @@ section:after {
 #promo img {
     height: 70%;
     width: 100%;
-    opacity: .4;
+    opacity: .8;
     z-index: -1;
 }
 #promo .container-fluid {
@@ -363,7 +363,7 @@ section:after {
     padding: 50px 30px;
     padding-bottom: 70px;
     top: 150px;
-    background: #c0d8d4;
+    background: #d5e7e4;
 }
 
 #name-input,
@@ -405,10 +405,44 @@ section:after {
 /* footer start */
 
 footer {
-    background: rgb(31, 30, 30);
+    /* background: rgb(31, 30, 30); */
+    background: grey;
     height: 70px;
     color: white;
     text-align: center;
     padding: 25px;
     font-size: 0.8rem;
 }
+
+.credits ul li {
+    display: inline-block;
+}
+
+.credits ul li a {
+    color: white;
+    height: 40px;
+    width: 40px;
+}
+
+.ico-circle i {
+   height: 40px;
+   width: 40px;
+   color: white;
+   list-style-type: none;
+   display: block;
+}
+
+/* 
+.ico-circle {
+    height: 40px;
+    width: 40px;
+    color: white;
+    list-style-type: none;
+    display: inline;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #1b1b1b;
+    transition: all 500ms ease;
+  } */
