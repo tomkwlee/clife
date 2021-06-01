@@ -214,6 +214,7 @@ header span {
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
+    z-index: 1 !important;
 }
 
 .banner-overlay a:hover {
@@ -362,7 +363,7 @@ section:after {
     padding: 50px 30px;
     padding-bottom: 70px;
     top: 100px;
-    background: #c4ced6;
+    background: lightgray;
 }
 
 #name-input,
@@ -375,6 +376,7 @@ section:after {
 #promo-submit {
     margin-left: 34.8%;
     border-radius: 3rem;
+    cursor: pointer;
 }
 
 
