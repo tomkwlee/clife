@@ -314,39 +314,24 @@ section:after {
 }
 
 
-#contact-methods {
-    float: left;
-}
-
-
-
-#contact-methods li {
-    list-style-type: none;
-    color: #888;
-    clear: left;
-    line-height: 30px;
-}
-
-#contact-methods li:before {
-    content: "";
-    display: block;
-    width: 40px;
-    height: 40px;
-    float: left;
-    margin-right: 10px;
-}
 /* promo start */
-
 #promo h1{
     text-align: center;
     color:black;
     margin-top: 30px;
 }
 
+#promo #lead-banner {
+    max-height: 700px;
+    overflow: hidden;
+    position: relative;
+    top: 60px;
+}
+
 #promo img {
     height: 70%;
     width: 100%;
-    opacity: .8;
+    opacity: .7;
     z-index: -1;
 }
 #promo .container-fluid {
@@ -355,14 +340,14 @@ section:after {
 
 #promo .banner-overlay {
     display: block;
-    left: 24%;
+    left: 25.5%;
     position: absolute;
     margin: auto;
-    width: 800px;
-    height: 300px;
-    padding: 50px 30px;
-    padding-bottom: 70px;
-    top: 150px;
+    width: 750px;
+    height: 250px;
+    padding: 30px 30px;
+    padding-bottom: 100px;
+    top: 170px;
     background: #d5e7e4;
 }
 
@@ -414,22 +399,42 @@ footer {
     font-size: 0.8rem;
 }
 
-.credits ul li {
-    display: inline-block;
+footer h2 {
+    position: relative;
+    display: block;
+    top: -5px;
+    margin: auto;
+    font-size: 1rem;
 }
 
-.credits ul li a {
+.credits #icons {
+    position: relative;
+    margin-left: auto;
+    display: inline;
+}
+
+.credits #icons-list li {
+    position: relative;
+    top: 0px;
+    float: left;
+    display: inline;
+}
+
+.credits #icons li a {
     color: white;
-    height: 40px;
-    width: 40px;
+    text-decoration: none;
 }
 
-.ico-circle i {
-   height: 40px;
-   width: 40px;
-   color: white;
-   list-style-type: none;
-   display: block;
+.credits i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.credits #contact-info {
+    display: inline;
+    position: relative;
+    list-style: none;
+    top: 50px;
 }
 
 /* 
