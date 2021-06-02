@@ -392,37 +392,38 @@ section:after {
 footer {
     /* background: rgb(31, 30, 30); */
     background: grey;
-    height: 70px;
+    height: 120px;
     color: white;
     text-align: center;
-    padding: 25px;
     font-size: 0.8rem;
 }
 
 footer h2 {
     position: relative;
     display: block;
-    top: -5px;
+    top: 15px;
     margin: auto;
     font-size: 1rem;
 }
 
-.credits #icons {
+.credits #icons-list{
     position: relative;
-    margin-left: auto;
     display: inline;
 }
 
 .credits #icons-list li {
     position: relative;
-    top: 0px;
-    float: left;
+    top: 15px;
     display: inline;
 }
 
-.credits #icons li a {
+.credits #icons-list li a {
     color: white;
     text-decoration: none;
+}
+
+.credits #icons-list li a:hover {
+    color: lightgray;
 }
 
 .credits i {
@@ -430,12 +431,14 @@ footer h2 {
     margin: 10px;
 }
 
-.credits #contact-info {
-    display: inline;
+#contact-info {
     position: relative;
+    color: white;
     list-style: none;
-    top: 50px;
+    margin-top: 15px;
+    line-height: 18px;
 }
+
 
 /* 
 .ico-circle {
