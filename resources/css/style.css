@@ -138,6 +138,7 @@ header:after {
     line-height: inherit;
     margin-top: 25px;
     left: -20px;
+    z-index: 2;
 }
 
 .wrapper a {
@@ -214,7 +215,7 @@ header span {
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
-    z-index: 1 !important;
+    z-index: 1;
 }
 
 .banner-overlay a:hover {
