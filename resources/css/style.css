@@ -466,21 +466,52 @@ footer h2 {
     header {
         width: 100%;
     }
-
  
-    #main-content li {
+    #main-content ul li {
         width: 80%;
         padding: none;
         position: relative;
-        margin: auto;
+        margin-bottom: 10px !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
     }
 
     #main-content li img{
         border: none;
+        max-width: 100%;
+        max-height: 375px;
     }
 
     #main-content li h3 {
         padding: 0px 0px 10px 0px;
         margin: auto;
     }
+/* 
+    #styles li:nth-child(1),
+    #styles li:nth-child(2),
+    #styles li:nth-child(3),
+    #occasion li:nth-child(1),
+    #occasion li:nth-child(2),
+    #occasion li:nth-child(3) {
+        margin-bottom: none !important;
+    }
+
+    #styles li:nth-child(4),
+    #occasion li:nth-child(4) {
+        margin-bottom: none;
+    }
+
+    #styles li:nth-child(2),
+    #styles li:nth-child(5),
+    #occasion li:nth-child(2),
+    #occasion li:nth-child(5) {
+        margin: none;
+    }
+    #styles li:nth-child(1),
+    #styles li:nth-child(4),
+    #occasion li:nth-child(1),
+    #occasion li:nth-child(4) {
+        margin-left: none;
+    } */
+
 }
