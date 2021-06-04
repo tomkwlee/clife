@@ -113,7 +113,7 @@ input, select {
 header {
     background: rgb(31, 30, 30);
     position: sticky;
-    top: 0px;
+    top: -5px;
     z-index: 1;
 }
 
@@ -442,9 +442,45 @@ footer h2 {
 
 
   /* media queries */
-@media screen and (max-width: 700px) {
-    #main-content li {
+
+  /* tablets */
+@media screen and (max-width: 770px) {
+    header {
         width: 100%;
+    }
+
+
+    #main-content a {
+        width: 80%;
+        border: none;
+        padding: none;
+        position: relative;
+        margin: auto;
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width: 500px) {
+
+    header {
+        width: 100%;
+    }
+
+ 
+    #main-content li {
+        width: 80%;
+        padding: none;
+        position: relative;
+        margin: auto;
+    }
+
+    #main-content li img{
+        border: none;
+    }
+
+    #main-content li h3 {
+        padding: 0px 0px 10px 0px;
         margin: auto;
     }
 }
