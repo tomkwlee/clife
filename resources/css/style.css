@@ -466,6 +466,14 @@ footer h2 {
     header {
         width: 100%;
     }
+
+    header .wrapper-brand {
+        position: relative;
+        width: 100%;
+        max-height: 30px;
+        top: 10px;
+        text-align: center;
+    }
  
     #main-content ul li {
         width: 80%;
