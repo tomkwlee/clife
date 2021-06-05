@@ -465,6 +465,7 @@ footer h2 {
 
     header {
         width: 100%;
+        z-index: 2;
     }
 
     header .wrapper-brand {
@@ -478,8 +479,20 @@ footer h2 {
     }
  
     #lead-banner img {
-        height: 600px !important;
+        height: 550px !important;
+    }
 
+    #lead-banner .banner-title {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 70px;
+    }
+
+    #lead-banner .banner-overlay .wrapper a {
+        color: rgb(196, 194, 194);
+        z-index: 1;
     }
 
     #main-content .container-fluid h1 {
