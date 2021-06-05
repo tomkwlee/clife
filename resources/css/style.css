@@ -480,8 +480,23 @@ footer h2 {
 
     header nav ul {
         overflow: hidden;
-        background: #505050;
-        height: 0;
+        background: rgb(31, 30, 30);
+        //height: 0;
+    }
+
+    header nav ul li {
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+
+    header nav ul li a {
+         color: white;
+         padding: 10px;
+         width: 100%;
+         border-bottom: 1px solid #404040;
+         display: block;
+         margin: 0;
     }
 
     header nav ul.open {
