@@ -472,7 +472,9 @@ footer h2 {
         width: 100%;
         max-height: 30px;
         top: 10px;
+        left: 2%;
         text-align: center;
+        font-size: 2.1rem;
     }
  
     #main-content ul li {
@@ -494,32 +496,5 @@ footer h2 {
         padding: 0px 0px 10px 0px;
         margin: auto;
     }
-/* 
-    #styles li:nth-child(1),
-    #styles li:nth-child(2),
-    #styles li:nth-child(3),
-    #occasion li:nth-child(1),
-    #occasion li:nth-child(2),
-    #occasion li:nth-child(3) {
-        margin-bottom: none !important;
-    }
-
-    #styles li:nth-child(4),
-    #occasion li:nth-child(4) {
-        margin-bottom: none;
-    }
-
-    #styles li:nth-child(2),
-    #styles li:nth-child(5),
-    #occasion li:nth-child(2),
-    #occasion li:nth-child(5) {
-        margin: none;
-    }
-    #styles li:nth-child(1),
-    #styles li:nth-child(4),
-    #occasion li:nth-child(1),
-    #occasion li:nth-child(4) {
-        margin-left: none;
-    } */
 
 }
