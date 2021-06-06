@@ -117,13 +117,11 @@ header {
     z-index: 1;
 }
 
-
 header:after {
     content: "";
     display: block;
     clear: both;
 }
-
 
 .wrapper-brand {
     height: 60px;
@@ -174,6 +172,10 @@ header span {
     padding-left: 15px;
     font-size: 0.8rem;
     text-align: center;
+}
+
+.burger-nav img {
+    visibility: hidden;
 }
 
 /* banner start */
@@ -465,7 +467,6 @@ footer h2 {
 
     header {
         width: 100%;
-        z-index: 2;
     }
 
     header .wrapper-brand {
@@ -508,7 +509,6 @@ footer h2 {
         border-bottom: none;
     }
 
-
     header .wrapper {
         width: 100%;
         padding: 0;
@@ -521,6 +521,10 @@ footer h2 {
         background: no-repeat 98% center;
         cursor: pointer;
         top: 40px;
+    }
+
+    .burger-nav img {
+        visibility: visible;
     }
 
     #lead-banner img {
@@ -537,7 +541,7 @@ footer h2 {
 
     #lead-banner .banner-overlay .wrapper a {
         color: rgb(226, 226, 226);
-        z-index: 1;
+        z-index: 0;
         
     }
 
