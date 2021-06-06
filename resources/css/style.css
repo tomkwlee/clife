@@ -487,6 +487,7 @@ footer h2 {
     header nav ul li {
         text-align: left;
         width: 100%;
+        border-bottom: 1px solid #404040;
         margin: 0;
     }
 
@@ -494,10 +495,15 @@ footer h2 {
          color: white;
          padding: 10px;
          width: 100%;
-         border-bottom: 1px solid #404040;
          display: block;
          margin: 0;
     }
+    header nav ul li:nth-child(5) {
+        padding-bottom: 10px;
+        border-bottom: none;
+   }
+
+
 
     header nav ul.open {
         height: auto;
