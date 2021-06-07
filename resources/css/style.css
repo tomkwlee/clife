@@ -570,15 +570,15 @@ footer h2 {
         letter-spacing: 1px;
     }
 
-    #lead-banner img {
+    #promo #lead-banner img {
         visibility: hidden;
     }
 
-    #lead-banner .wrapper {
+    #promo #lead-banner .wrapper {
         position: relative;
     }
 
-    #lead-banner .banner-overlay {
+    #promo #lead-banner .banner-overlay {
         margin: none;
         width: 100%;
         height: 400px;
