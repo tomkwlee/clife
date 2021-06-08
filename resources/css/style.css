@@ -366,6 +366,7 @@ section:after {
     padding: 30px 30px;
     padding-bottom: 100px;
     top: 170px;
+    border-radius: 0.4rem;
     background: #d5e7e4;
 }
 
@@ -461,22 +462,131 @@ footer h2 {
   /* media queries */
 
   /* tablets */
-@media screen and (max-width: 770px) {
+@media screen and (min-width:501px) and (max-width: 770px) {
     header {
         width: 100%;
     }
 
+    header .wrapper {
+        width: 100%;
+        height: 50px;
+        padding: 10px !important;
+        margin: auto;
+    }
 
-    #main-content a {
-        width: 80%;
-        border: none;
+    header .wrapper-brand {
+        position: relative;
+        display: inline;
+        width: 8%;
+        margin: auto 0;
+        top: 12px;
+        max-height: 20px;
+        left: 1%;
+        font-size: 1.4rem;
+    }
+    
+    header nav {
+        position: relative;
+        margin: 0;
+        padding: 15px 20px;
+        padding-top: 22px;
+        right: -4%;
+
+    }
+
+    header nav ul li {
+        display: inline;
+        margin: 0 7px;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+    }
+
+    header nav ul .search-input {
+        width: 110px;
+    }
+
+    #lead-banner img {
+        height: 600px;
+        width: 1500px;
+        left: -37%;
+        overflow: hidden;
+    }
+
+    #lead-banner .banner-title {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 70px;
+    }
+
+    #lead-banner .banner-overlay .wrapper a {
+        color: rgb(226, 226, 226);
+        z-index: 0;
+        
+    }
+
+    #main-content .container-fluid h1 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    #main-content ul li {
+        width: 40%;
         padding: none;
         position: relative;
+        margin-bottom: 40px !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+
+    #main-content li img{
+        border: none;
+        max-width: 100%;
+    }
+
+    #main-content li h3 {
+        padding: 0px 0px 10px 0px;
         margin: auto;
+        letter-spacing: 1px;
+    }
+
+    #promo #lead-banner .wrapper {
+        position: relative;
+    }
+
+    #promo #lead-banner .banner-overlay {
+        margin: none;
+        width: 100%;
+        height: 400px;
+        left: -8.5% !important;
+        top: -10%;
+    }
+
+    #lead-banner input {
+        width: 80%;
+        margin: 50px auto;
+        position: relative;
+        top: 80px;
+    }
+
+    #lead-banner #promo-submit {
+        margin: auto;
+        position: relative;
+        top: 80px;        
+    }
+
+    #lead-banner h1 {
+        position: relative;
+        top: 80px;
+        left: 2%;
     }
 
 
 }
+
 
 /* mobile */
 @media screen and (max-width: 500px) {
